@@ -7,6 +7,7 @@ def is_prime(number):
         if number % i == 0:
             return False
     return True
+# this function determines whether the number is a prime number
 
 if __name__ == '__main__':
     number = int(input("Input an integer: "))
